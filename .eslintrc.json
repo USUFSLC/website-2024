@@ -6,6 +6,17 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "prettier/prettier": "error"
+    "react/react-in-jsx-scope": "off",
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".tsx",
+          ".ts"
+        ]
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "error"
   }
 }
