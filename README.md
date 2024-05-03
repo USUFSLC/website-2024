@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Installing Dependencies
+
+You will need to set up NodeJS to develop locally after you have cloned this project. There is a `.tool-versions` file with the current Node version we are using that can be used with the [asdf version manager](https://github.com/asdf-vm/asdf). You can either `asdf install` once you are in the project directory, or manually install the version in that file using your version manager of choice.
+
+## Pre-Commit Hooks
+
+Before committing, we have hooks set up that will format/lint/typecheck your code to help prevent having any breaking commits in the history. If you absolutely have to, you can `git commit --no-verify` to skip these, but it is recommended as a convention to always run these. To make things performant, linting and formatting only happens on staged files in the pre-commit hook.
+
 ## Getting Started
 
 First, run the development server:
