@@ -9,7 +9,8 @@
     "lint": "next lint",
     "fix": "next lint --fix",
     "prepare": "husky",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "type-check": "tsc --pretty --noEmit"
   },
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
