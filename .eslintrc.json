@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".tsx",
+          ".ts"
+        ]
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "error",
+    "react/destructuring-assignment": "off",
+    "react/jsx-props-no-spreading": "off"
+  },
+  "plugins": [
+    "prettier",
+    "@typescript-eslint"
+  ]
+}
